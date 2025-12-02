@@ -4,6 +4,6 @@ def vechile_details():
         "Vechile Number: 111\n"
         "Owner Name: John\n"
         "Vechile Type: Bike\n"
-        "Year OF Manufacture: 2006"
+        "Year Of Manufacture: 2006"
     )
     assert employee_details("111","Jhon","Bike",2006) ==  expected_output
