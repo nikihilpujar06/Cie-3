@@ -1,5 +1,5 @@
 from vechile import vehicle_details 
-def vechile_details():
+def vehicle_details():
     expected_output = (
         "Vechile Number: 111\n"
         "Owner Name: John\n"
