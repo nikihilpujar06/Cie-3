@@ -1,4 +1,4 @@
-from vechile import vechile_details 
+from vechile import vehicle_details 
 def vechile_details():
     expected_output = (
         "Vechile Number: 111\n"
