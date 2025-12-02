@@ -11,5 +11,5 @@ expected = (
     "Owner Name: Jhon\n"
     "Vechile Type: Bike\n"
     "Year of Manufacture: 2006"
-
+)
 assert vechile_details(111, "Jhon", "Bike", 2006) == expected
