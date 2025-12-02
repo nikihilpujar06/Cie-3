@@ -1,16 +1,9 @@
-def vehicle_details(v_num, o_name, v_type, year_of_mfg):
-    return (
-        f"Vehicle Number: {v_num}\n"
-        f"Owner Name: {o_name}\n"
-        f"Vehicle Type: {v_type}\n"
-        f"Year of Manufacture: {year_of_mfg}"
+from vechile import vechile_details 
+def vechile_details():
+    expected_output = (
+        "Vechile Number: 111\n"
+        "Owner Name: John\n"
+        "Vechile Type: Bike\n"
+        "Year OF Manufacture: 2006"
     )
-
-expected = (
-    "Vehicle Number: 111\n"
-    "Owner Name: Jhon\n"
-    "Vehicle Type: Bike\n"
-    "Year of Manufacture: 2006"
-)
-
-assert vehicle_details("111", "Jhon", "Bike", 2006) == expected
+    assert employee_details("111","Jhon","Bike",2006) ==  expected_output
